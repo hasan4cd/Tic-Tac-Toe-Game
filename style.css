@@ -53,6 +53,16 @@ body {
     background-color: aquamarine;
 }
 
+@media (max-width: 450px) {
+    .box {
+        font-weight: 500;
+    }
+
+    .box:hover {
+        background-color: white;
+    }
+}
+
 #reset {
     margin-top: 15px;
     height: 45px;
