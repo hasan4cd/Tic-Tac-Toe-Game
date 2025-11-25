@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.one {
+   margin-top: 20px;
+   text-align: center;
+   text-decoration: red solid underline;
+   color: yellow;
+   font-size: 40px;
+}
+
+.two {
+    margin-top: 5px;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    height: 330px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 549;
+    background-color: white;
+    color: brown;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+#reset {
+    margin-top: 15px;
+    height: 45px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    cursor: pointer;
+    background-color: mediumblue;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
